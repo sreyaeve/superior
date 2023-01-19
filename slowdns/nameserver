@@ -3,9 +3,9 @@ REPOS="https://github.com/sreyaeve/superior/raw/main/"
 ns_domain_cloudflare() {
 	DOMAIN=vipdns.my.id
 	DOMAIN_PATH=vipdns.my.id
-	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c6)
+	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c3)
 	SUB_DOMAIN=${SUB}.$DOMAIN
-	NS_DOMAIN=ns.${SUB}.$DOMAIN
+	NS_DOMAIN=ns${SUB}.$DOMAIN
 	CF_ID=emailvps77@gmail.com
         CF_KEY=2-yPIFvrIP-34J1jRlyafy4_4XiB_iAFFZi8RB4E
 	set -euo pipefail
