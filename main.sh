@@ -329,9 +329,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user taibabihutan17@gmail.com
-from taibabihutan17@gmail.com
-password romanisti
+user oceantestdigital@gmail.com
+from oceantestdigital@gmail.com
+password jokerman77
 logfile ~/.msmtp.log
 
 EOF
